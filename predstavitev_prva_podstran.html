@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> PREDTSAVITEV INFORMACIJ </title>
+		<meta charset="utf - 8">
+		<meta name = "description" content = "Kratek opis vsebine">
+		<meta name= "author" content = "John Dee">
+		<link rel="stylesheet" type="text/css" href= "stil.css" />
+		<style type= "text/css"> img {float: left;} img{margin-left: 20px;} img{margin-right: 20px;} img{margin-bottom: 30px;}</style><!-- stil, ki ga uporabimo samo za to html kodo-->
+		<!--meta podatki v glavi, ki veljajo celotno to kodo-->
+	</head>
+	<body><!--začetek vidnega-->
+		<header> <h1> PREDSTAVITEV ČRK, ZNAKOV, BESEDIL </h1> </header><!--glavni načrt-->
+		<section>
+			<p>Pri besedilih znake predstavljamo tako, da ima vsak znak točno določeno kodo. Ker smo že v uvodu omenili, da je osnovna enota bit, lahko sklepamo naslednje.</p> <p style= font-weight:bold;> Besedilo je zaporedje besed, besede so zaporedje znakov, vsak znak pa je predstavljen kot zaporedje bitov. </p> <!--uvod v predstavljeno temo-->
+			
+			<p>Koliko znakov je mogoče pokazati z enim bajtom – osmimi biti -> <br> <!--besedilo-->
+				1111 1111(2) = 128+64+32+16+8+4+2+1 = 255(10)<br>
+				Torej z bajtom lahko prikažemo 256 različnih znakov.</p>
+				
+			<li><a href= "sestavi_prva_podstran.html" style= color:#77BDF2;> pretvorba iz desetiškega sestava v poljuben p sestav</a></li> <!--povezava na 1. pretvorbo-->
+			
+			<p>Sredi 60. let so v ZDA določili točno določene kode za točno določene znake.</p> <p style= font-weight:bold;> Tako je nastala American Standard Code for Information Interchange znaka kot ASCII tabela: </p><p> ASCII tabela vsebuje 128 znakov (0-127) – razširjena pa ostale (128-255). Male in velike črke se pojavi na mestih od 67 do 122). Ker je ta tabela ameriška, ne vsebuje šumnikov, za katere vemo da so za druge jezike sila pomembni. Tako lahko pride tudi do dodajanj kod h tabela za izpopolnitev. Za shranjevanje vsakega posameznega znaka po ASCII standardu potrebujemo 8bitov. Šumnike lahko dobimo s pomočjo UTF – 8.</p><!--predstavitev ASCII tabele-->
+			
+			<p>Primer črke v ASCII: A – 41(16) – 0100 0001(2) – 65(10) </p> <!--primer ene črke-->
+			
+			<p>Za predstavitev večjih količin podatkov poznamo tudi večje enote (bit – B(bajt) – KB – MB – GB)</p> <!--besedilo-->
+			<br>
+			<img src= "slike_ss/dober_dan.jpg" width = "297" height = "233">  <!-- slika pretvorbe besede "DOBER DAN"-->
+			<p class="slik" > Zanimivo je videti, kakšna dolga koda se skriva za nam enostavno besedo "DOBER DAN".
+				Če pa si poskušamo predstavljati kodo, katera zastopa celoten esej ali digitalno knjigo, je to kar ne predstavljivo. 
+				Res ne predstavljive so določene enormne kode, ki zastopajo določene podatke. </p> <!--opis zapisanega, pod razredom slik, opir postavimo na sredino-->
+			
+			<br><!--prostor-->
+			<br><!--prostor-->
+			<br><!--prostor-->
+			<br><!--prostor-->
+			<br><!--prostor-->
+			<br><!--prostor-->
+			<br><!--prostor-->
+			<br><!--prostor-->
+			</section>
+		<footer style= margin-top:25px;><a href= "index.html"><img src = "slike_ss/logotip_tp.jpg" width = "40" height= "50" style= margin-bottom:0px;></a><!--dodan link s sliko, če kliknemo na sliko preide na prvo stran-->
+		Tanaja Prašelj CC BY-NC-SA </footer><!--noga, v kateri je zapisana licenca in ime ter priimek-->
+
+	</body><!--konec vidnega-->
+</html><!--konec kode-->
+	
