@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> POSEBNI ŠTEVILSKI SESTAVI </title>
+		<meta charset="utf - 8">
+		<meta name = "description" content = "Kratek opis vsebine">
+		<meta name= "author" content = "John Dee">
+		<link rel="stylesheet" type="text/css" href= "stil.css" />
+		<!--meta podatki v html kodi, ki veljajo celo kodo-->
+
+
+	</head>
+	<body><!--začetek vidnega-->
+		<header> <h1> POSEBNI ŠTEVILSKI SESTAVI </h1> </header> <!--glavni naslov-->
+		<nav> <p style= text-align:center;> DVOJIŠKI---DVANAJSTIŠKI---ŠESTDESETIŠKI---ŠTIRIINŠESTDESETIŠKI </p> </nav> <!--meni, ki napoveduje vsebino-->
+		<br>
+		<h2>DVOJIŠKI ŠTEVILSKI SESTAV - binary system </h2> <!--podnaslov-->
+		<p> (Gottfried Leibniz 17.stoletje : v računalniških sistemih je bil bit najmanjša enota podatkov. Lahko je imel vrednost 1 ali 0, vmesnih vrednosti ni bilo)</p>
+		<!--besedilo-->
+		<p>Dvojiški številski  sistem je v svetu računalništva zelo pomemben. <p class = "vpr" > ZAKAJ?  </p> </p> <!--besedilo označimo pod classom vpr-->
+		<!--besedilo-->
+		<p>V računalnikih so vse informacije predstavljene s števkami. Od tod tudi izraz digitalni sistem. Števke, s pomočjo katerih stroji v pomnilniku shranjujejo svoje podatke, so binarne:</p> <p style= font-weight:bold;> (dve stanji : stanje visoke napetosti (1) in stanje nizke napetosti (0)). To so binarni sistemi. Izraz binarni zato, ker uporabljamo samo dve vrednoti 0/1.</p><p> Iz teh dveh vrednosti se sestavi koda, ki jo sistem nadaljnjo uporablja za razumevanje navodil. </p>
+		<!--besedilo-->
+		<p class = "povez"> V poglavju <a href= "sestavi_prva_podstran.html" >"iz desetiškega v poljubno p osnovo"</a> je predstavljena pretvorba desetiškega v dvojiški številski sestav. </p>
+		<!--besedilo z dodanim linko ene izmed strani-->
+
+		<p class = "povez">V poglavju <a href= "predstavitev_prva_podstran.html">"predstavitev znakov, črk, besedil"</a> je predstavljena uporaba binarnega sistema v ozadju predstavitve informacij.</p>
+		<!--besedilo z dodanim linko ene izmed strani-->
+		<br>
+		<h2>DVANAJSTIŠKI ŠTEVILSKI SESTAV - duodecimal numeral system </h2> <!--podnaslov-->
+		<p>(Herbet Spencer, John Quincy Adams in George Bernard Shaw (Gardner 1984) so zagovarjali duodecimal ali dvanajstiški številski sistem)</p>
+		<!--besedilo-->
+		<p style= font-weight:bold;>Baza dvanajstiškega številskega sistema je sestavljena iz naslednjih števk :
+			0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9, A , B</p>
+		<!--besedilo-->
+		<p>Zaradi baze dvanajstiškega številskega sestava se je pojavil izraz ducat (ang. dozen), ki pomeni količino dvanajstih (enota za količino, ki vsebuje 12 kosov). </p>
+		<!--besedilo-->
+		<p class = "povez" >V poglavju <a href= "sestavi_prva_podstran.html" >"iz desetiškega v poljubno p osnovo"</a>
+			je predstavljena pretvorba desetiškega v dvanajstiški številski sestav. </p> <!--besedilo, ki vsebuje povezavo od ene od sztrani-->
+		<br>
+		<h2>ŠESTDESETIŠKI ŠTEVILSI SESTAV - sexagesimal numeral system</h2> <!--podnaslov-->
+		<p>(Sumerci (3.tisocletja pr.n .st) – Babilonija)</p>
+		<!--besedilo-->
+		 
+		<p style= font-weight:bold;>Dandanes se šestdesetiški sistem skriva za meritvami časa, kotov, elektronske navigacije in geografskih koordinat.</p>
+		<p>To je številski sistem z osnovo 60.</p>
+		<!--besedilo-->
+
+		<p class = "vpr" > PRIMERA:  </p> <!--bese3dilo pod razredom 'vpr'-->
+		<p>Ura ima 60min, minuta ima 60sek. Tako lahko 4:12:55 (ura: 4 minuta:12 sekunda:55) zapišemo kot 4*600 + 12*60 +55*1= 15120 ,kar nam predstavlja število sekund.</p>
+		<!--besedilo-->
+		<p>Podobno se lahko zgodi pri kotih. Imamo 360 stopinj, stopinja ima 60 minut. Tako tudi za izračun kotnih minut lahko uporabimo ta številski sestav (npr. 166 stopinj 43 minut) 166*60+43*1 = 10003, kar nam predstavlja število kotnih minut. </p>
+		<!--besedilo-->
+		<br>
+		<h2>ŠTIRIINŠESTDESETIŠKI ŠTEVILSKI SESTAV</h2> <!--podnaslov-->
+		
+		<p>Štiriinšesdesetiški številski sistem, znan tudi kot Base64, je sistem z osnovo 64.</p><!--besedilo-->
+
+		
+		<p style= font-weight:bold;>Base64 predstavlja sheme kodiranja binarnega zapisa v besedilo. S tem kodiranjem lahko zagotovimo, da podatki med transportom ostajajo nedotaknjeni (lahko si to predstavljamo kot zaščito binarnih podatkov).</p> <p> V večini se Base64 uporablja v aplikacijah, katere shranjujejo kompleksnejše podatke. Ko se prične postopek Base64 kodiranje temu lahko rečemo encoding. Ko podatek prispe do končne destinacije, ta podatek dekodira (decoding) nazaj v izbran niz ASCII.</p>
+		<!--besedilo-->
+		<p class = "vpr">ZAKAJ SE UPORABLJA?</p> <!--besedilo pod razredom 'vpr'-->
+		
+		<p>Veliko težav se pojavi pri prenosu raznih slik, videov, raznih podatkov preko sistemov. Le-tej si binarne podatke razlagajo napačno, in sicer kot skupino znakov s posebnimi ukazi. Tako se tudi posledično podatki skozi transport poškodujejo oziramo lahko se tudi izgubijo. </p>
+		<!--besedilo-->
+		<p class = "vpr"> KAKO? </p> <!--besedilo pod razredom 'vpr'-->
+		
+		<p>Tu nastopi Base64 encoding. Proces kodiranja razdeli binarne podatke na 6-bitov. Tako zagotovi, da so podatki natisnjeni, berljivi in v njih se ne pojavljajo znaki iz ASCII. Ko prispejo na končno destinacijo se zgodi decoding, tako se binarni podatki nazaj dekodirajo v ASCII znake (v osnovno stanje)</p>
+		<!--besedilo-->
+		<br>
+		<a href="predstavitev.html" >PREDSTAVITEV PODATKOV -></a> <!--povezava do naslednje strani, in sicer predstavitev podatkov-->
+		<br>
+		
+		<footer><br><a href= "index.html"><img src = "slike_ss/logotip_tp.jpg" width = "40" height= "50" style= float:left;></a> <!--dodan link s sliko, če kliknemo na sliko preide na prvo stran-->
+		Tanaja Prašelj CC BY-NC-SA </footer><!-- spodnji del z licenco, 'noga'-->
+	</body><!--konec vidnega-->
+</html><!--konec kode-->
