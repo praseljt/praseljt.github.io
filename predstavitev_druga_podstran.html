@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> PREDTSAVITEV INFORMACIJ </title>
+		<meta charset="utf - 8">
+		<meta name = "description" content = "Kratek opis vsebine">
+		<meta name= "author" content = "John Dee">
+		<link rel="stylesheet" type="text/css" href= "stil.css" />
+		<!--meta podatki v glavi, ki veljajo celotno to kodo-->
+	</head>
+	<body><!--začetek vidnega-->
+		<header> <h1> PREDSTAVITEV SLIKOVNEGA GRADIVA </h1> </header><!--glavni naslov-->
+		<section>
+			<p>Slike predstavljamo s naslednjimi formati : jpeg, gif, png…V prejšnjem poglavju so bila besedila sestavljena iz besed, beseda pa iz črk – znakov. Za slike lahko omenimo, da so skupek pik in posledično si lahko prestavljamo, da je slika predstavljena z biti – BITNA SLIKA.</p><p style= font-weight:bold;>Bitni slika se skriva pod bolj znanim imenov - RASTRSKA SLIKA.</p><p> Čeprav so slike sestavljene iz pik, lahko računalniku tudi na drugačen način podamo podatke za sliko, in sicer kot zaporedje navodil s pomočjo katerih je slika nastala.</p><p style= font-weight:bold;> Taki sliki rečemo - VEKTORSKA SLIKA.</p><p> Razlika med prvo in drugo omenjena je ta, da ko sliki povečamo se rastrska grafika spači, vektorska pa ne.</p><!--predstavitev teme-->
+			<p> Ker pa so za slike tudi zelo pomembne barve, moramo ugotoviti, kako računalniku podamo kodo, da bo pobarval sliko. </p><!--napoved teme za zapis barve-->
+			
+			<p class= "vpr">KOLIKO BARV DOBIMO Z DOLOČENIM ŠTEVILOM BITOV?</p> <!--besedilo, zapisano pod razredom vpr, kateri ima lastnost črne barve-->
+			<ul> <!--alineje za predstavitev barv-->
+				<li> 4 biti -> 16 (s štirimi biti lahko dobimo 16 različnih barv) </li>
+				<li> 8 biti -> 256 (s osmimi biti lahko dobimo 256 različnih barv) </li>
+				<li> 16 biti -> 65536 (s šestnajstimi biti lahko dobimo 65536 različnih barv) </li>
+				<li> ... </li>
+			</ul>
+			<p style= font-weight:bold;> Temu rečemo BARVNA GLOBINA - Število bitov, s katerimi bomo predstavili barve </p> <!--besedilo-->
+			<p>		Za mešanje barv poznamo tri osnovne barve – RDEČA – ZELENA – MODRA <br></p>
+				<p style= font-weight:bold;>(red-green-blue : RGB)</p> <!--besedilo okoli teme rgb-->
+				<p>Računalniki in Tv zasloni imajo vsi metodo prištevanja in dodajanja barv. Tako je vsaka pika slike na računalniku predstavljena kot skupek treh pik (naših treh osnovnih barv). Če posamezno barvo izmed teh treh lahko prikažemo na 256 različnih načinov imamo lahko tako posledično (256*256*256) kar 16777216 različnih barv. <br>
+				Tako posamezno barvo lahko predstavimo tako; </p> <!--besedilo-->
+			<img src= "slike_ss/rgb.jpg" width = "624" height = "41">  <!--slika primera za rgb-->
+			
+			<p>Izbrana barva je predstavljena : 100100010011001001111011 (obvezno brez presledka) . Vidimo, da je predstavljena kot 24-bitno dvojiško število. Pri grajenju html – ja pa je v veliki večini predstavljena barva drugače : RGB šestnajtiško (#______)</p>
+			<p> Podano je 24-bitno binarno število: 1001 0001 0011 0010 0111 1011, tako kupe po štiri zapišemo nazaj v desetiško: </p> <!--predstavitev rgb sestnajstisko-->
+			<img src= "slike_ss/rgb_p.jpg" width = "733" height = "41"> <!--slikovna prikazen predstavitve-->
+			<p style= font-weight:bold;>Tako dobimo RGB Šestnajstiško kodo : #91327B</p> <!--končna koda-->
+			<p>Slika, kot celota, je računalniku skoraj vedno prikazana kot mreža pikslov. Če sliko enormno približamo, to tudi opazimo. Vsaka piksel (kvadratek na zaslonu) je predstavljen kot skupek RGB barv.</p><!--besedilo-->
+			<p>Poznamo tudi tehniko kodiranja z dolžino čet, ki je manj uporabna dan danes. Predstavljamo si črno-belo sliko, ki je seveda prikazana kot mreža (Črne in bele pike), če predpostavimo, da je črna pika – 1 in bela pika – 0, lahko sliko zapišemo kot četo 0111011; kje se pojavi bela barva in kje se pojavi črna barva v mreži. Posledično nastane slika.</p> <!--besedilo-->
+		</section>
+		<footer> <a href= "index.html"><img src = "slike_ss/logotip_tp.jpg" width = "40" height= "50" style= float:left;></a><!--dodan link s sliko, če kliknemo na sliko preide na prvo stran-->
+		Tanaja Prašelj CC BY-NC-SA</footer><!--noga, v kateri je zapisana licenca in ime ter priimek-->
+	</body><!--koenc vidnega-->
+</html><!--konec kode-->
+
+
+			
