@@ -1,0 +1,88 @@
+body {
+	background-color : #FFFAF8;} /*barva ozadja*/
+	
+h1 {
+	color:#5C69BF;
+	text-align:center;
+	font-size:55px;
+	margin-right: 20px;
+	margin-left: 20px;
+	} /*barva, pozicija, velikost, levi in desni rob od naslova h1*/
+	
+p {
+	font-size:20px;
+	color :#43454A;
+	text-align:left-side;
+	margin-left: 20px;
+	margin-right: 20px;} /*velikost, barva, pozicija, levi in desni rob za besedilo*/
+	
+li{
+	font-size: 20px;
+	color: #43454A;
+	text-align:right-side;
+	text-decoration : none;
+	margin-left: 20px;
+	margin-right: 20px;} /*velikost, barva, pozicija, odstranitev podčrtanosti, levi in desni rob za alineje*/
+	
+p.nav{
+	color: #6E6BB0;	
+	font-size:16px;
+	text-decoration: underline;} /*barva, veliksot, dekoracija (podčrtanost) za navodila pretvorbe (besedilo, je v classu "nav")*/
+	
+h2 {
+	color:#6089DB;
+	margin-left: 20px;
+	margin-right: 20px;
+	} /*barva, levi in desni rob naslova h2*/
+
+h3 {
+	color:#6089DB;
+	margin-left: 20px;
+	margin-right: 20px;
+	} /*barva, levi in desni rob za naslov h3*/
+	
+a {
+	text-decoration: none;
+	text-align: left;
+	margin-right: 20px;
+	margin-left: 20px;} /*odstranitev podčrtanosti, pozicija, levi in desni rob za linke*/
+
+	
+p.vpr {color : black;
+		font-weight:bold;} /*barva besedila, ki je zapisan pod classom "vpr"*/
+
+	
+a:hover {
+    color:#77BDF2;} /*barva linka, ko se s puščico postavimo nanj*/
+	
+nav {
+	background:white;
+	height : 20px;
+	width: 100%;} /* barva ozadja, višina in širina menija*/
+	
+
+
+table {
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	width: 100%;} /*velikost, barva, postavitev, širina tabele manija*/
+
+
+footer {
+	text-align: center;} /*pozicija "noge" v kateri imam zapisano licenco*/
+	
+img {
+	margin-left: 20px;
+	margin-right: 20px;
+	} /*robova (levi in desni) za slike, ki se pojavijo v html kodah*/
+	
+p.slik{
+	margin-right: 200px;
+	text-align: center;
+	color: black;
+}
+
+p.povez{
+	font-style: italic;
+font-size: 15px;}
