@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> PREDTSAVITEV INFORMACIJ </title>
+		<meta charset="utf - 8">
+		<meta name = "description" content = "Kratek opis vsebine">
+		<meta name= "author" content = "John Dee">
+		<link rel="stylesheet" type="text/css" href= "stil.css" />
+		<style type= "text/css"> img {float: left;} img{margin-left: 20px;} img{margin-right: 20px;} a{margin-left:0px;} a{margin-right:0px;} </style> <!-- stil, ki ga uporabimo samo za to html kodo-->
+		<!--meta podatki v glavi, ki veljajo celotno to kodo-->
+
+	</head>
+	<body>
+		<header> <h1> PREDSTAVITEV ZVOČNIH SIGNALOV </h1> </header><!--glavni naslov-->
+		<section>
+			<p>Vsakdanji zvočni signali so analogni podatki. Ker pa računalnik hrani samo digitalne podatke, potrebujemo pretvorbo.</p> <p style= font-weight:bold;> Spoznavamo ADP in DAP (analogno-digitalni pretvornik in digitalno-analogni pretvornik), katera pretvarjata podatke v potrebno.</p><p> Za zvok je značilno VALOVNO KODIRANJE; prikazovanje zvoka s pomočjo velikosti zvočnih valov.</p> <!--besedilo, napoved teme-->
+			<br>
+			<br>
+			<img src= "slike_ss/zvok.jpg" width = "333" height = "200"> <!--slika, na kateri so slušalke, računalnik...povezano s temo-->
+			<p>Ko imamo zvok predstavljen z zvočnimi vali (graf), se ta skozi analogno – digitalno pretvorbo spremeni v stopničast graf. <br> Ko se zgodi obratna pot, iz digitalnega v analogno, se graf spremeni v krivuljo, pri tem pa ima manjša odstopanja od osnovnega zapisanega zvoka (začetni in končni graf sta si podobna, ne pa povsem enaka). Ker se zvok shrani v pomnilnik, velja to pravilo. Bolj natančne meritve kot želimo imeti, več prostora bo meritev zasedla. Natančnost je odvisna od tega koliko bitna je zvočna kartica, ki je pomembna pri pretvorbi. Če bo pretvorba bolj natančna bomo imeli manj izgube. (npr. 8 – bitna zvočna kartica := 256, torej lahko zapiše zvok z 256 različnimi vali)</p> <!--vmesno besedilo o pretvorbni-->
+			<br>
+			<br>
+			<br>
+			<p class= "vpr">POSTOPEK PREDSTAVITVE:</p> <!--besedilo, pod razredom vpr-->
+			<img src= "slike_ss/pretvorba_zvok.jpg" width = "541" height = "150" > <!--slikovna predstavitev zvoka, adc/dac-->
+			<br>
+			<p style= font-weight:bold;>Mikrofon posname zvočni signal. Ta se, za zapis v računalnik, more pretvoriti v digitalni signal. Tu se pojavi že navedena zvočna kartica, ADP in tako, ko to postane digitalni signal, se lahko shrani v pomnilnik kot zaporedje bitov v obliki dvojiškega zapisa. Ko želimo podatek dobiti nazaj moramo uporabiti DAP, tako iz zapisa, ki je digitalno zapisan v pomnilniku, pretvorimo v analogni in tako ga spustimo skozi zvočnik. Ta spušča vibracije, kar naše uho posledično sliši kot zvok.</p> <!--razlozen postopek-->
+		</section>
+		<footer style= margin-top:80px;> <a href= "index.html"><img src = "slike_ss/logotip_tp.jpg" width = "40" height= "50" style= margin-bottom:0px;></a><!--dodan link s sliko, če kliknemo na sliko preide na prvo stran-->
+		Tanaja Prašelj CC BY-NC-SA </footer><!--noga z imeno,priimkom in licenco-->
+	</body><!--konec vidnega-->
+</html><!--konec kode-->
+	
